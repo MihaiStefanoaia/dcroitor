@@ -10,6 +10,7 @@ citire    - citeste <variabila>
 scriere   - scrie <valoare aritmetica | valoare de adevar>
 atribuire - <variabila> = <valoare aritmetica | valoare de adevar>
 decizie   - daca <valoare de adevar> atunci <secventa de instructiuni> [altfel <secventa de instructiuni>] sfarsit daca
+repetitie - cat timp <valoare de adevar> executa <secventa de instructiuni> sfarsit cat timp
 
 
 tipuri de operatori:
@@ -22,7 +23,7 @@ intr-o expresie cu o combinatie de tipuri de operatori, intai se executa cei ari
 operatori aritmetici (in ordinea aplicarii):
 nivel | simbol | descriere
 1     | *      | inmultire
-1     | /      | impartire (pe intregi)
+1     | /      | impartire (pe intregi, daca nu se specifica altfel)
 1     | %      | modulo (restul impartirii)
 2     | +      | adunare
 2     | -      | scadere
@@ -45,3 +46,4 @@ simbol | citire si semnificatie
 <      | mai mic
 >=     | mai mare sau egal
 <=     | mai mic sau egal
+

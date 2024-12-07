@@ -1,0 +1,65 @@
+
+
+cat timp <expresie> executa
+    comanda 1
+    comanda 2
+    ...
+    comanda n
+sfarsit cat timp
+
+exemplu - spargerea unui numar pe cifre:
+
+citeste n
+cat timp n != 0 executa
+    cif = n % 10
+    n = n / 10
+    afiseaza cif
+sfarsit cat timp
+afiseaza "sfarsit"
+
+
+
+putere a lui 2:
+[leetcode 231]
+
+citeste n
+a = 0
+cat timp n > 2 ** a executa
+    a = a + 1
+sfarsit cat timp
+
+daca n == 2 ** a atunci
+    afiseaza "e putere a lui 2"
+altfel
+    afiseaza "nu e putere a lui 2"
+sfarsit daca
+
+
+interval:
+[pbinfo 469]
+
+citeste a
+citeste b
+citeste x
+
+daca x >= a and x <= b atunci
+    afiseaza "DA"
+altfel
+    afiseaza "NU"
+sfarsit daca
+
+
+paritate:
+[pbinfo 4510]
+
+citeste n
+citeste m
+
+daca (n % 2 == 0 si m % 2 == 0) sau (n % 2 == 1 si m % 2 == 1) atunci
+    afiseaza n % 10 + n / 10 + m % 10 + m / 10
+altfel
+    afiseaza n % 10 * n / 10 * m % 10 * m / 10
+sfarsit daca
+
+paritate (simplificat):
+
