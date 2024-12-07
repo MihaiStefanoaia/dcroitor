@@ -1,0 +1,11 @@
+git pull
+^^^ actualizeaza folderul cu ce e incarcat pe server
+
+git add <fisier>
+^^^ pregateste fisierul pentru a fi salvat in sistem
+
+git commit -am "<mesaj>"
+^^^ salveaza in sistem
+
+git push
+^^^ incarca pe server
