@@ -63,3 +63,12 @@ sfarsit daca
 
 paritate (simplificat):
 
+citeste n
+citeste m
+
+daca n % 2 == m % 2 atunci
+    afiseaza n % 10 + n / 10 + m % 10 + m / 10
+altfel
+    afiseaza n % 10 * n / 10 * m % 10 * m / 10
+sfarsit daca
+
