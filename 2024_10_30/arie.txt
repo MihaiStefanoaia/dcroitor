@@ -1,0 +1,23 @@
+1. luam latura unui patrat in a
+2. ap1 = a * a
+3. ap2 = (a * a) / 2
+4. res = ap1 + ap2
+
+
+intrare: a 
+iesire: res
+intermediar: ap1, ap2
+
+
+hello world
+
+141 / 2 = 70, r 1
+70  / 2 = 35, r 0
+35  / 2 = 17, r 1
+17  / 2 = 8 , r 1
+8   / 2 = 4 , r 0
+4   / 2 = 2 , r 0
+2   / 2 = 1 , r 0
+1   / 2 = 0 , r 1
+
+0b10001101

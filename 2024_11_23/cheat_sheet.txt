@@ -1,0 +1,47 @@
+tipuri de baza:
+variabila - o "cutie" care poate contine o valoare aritmetica sau de adevar
+            valoarea ei poate fi extrasa ca sa fie folosita in expresii sau in instructiuni
+valoare aritmetica - numar
+valoare de adevar - valoare intre Adevarat si Fals (A sau F | T or F | True or False)
+
+
+instructiuni:
+citire    - citeste <variabila>
+scriere   - scrie <valoare aritmetica | valoare de adevar>
+atribuire - <variabila> = <valoare aritmetica | valoare de adevar>
+decizie   - daca <valoare de adevar> atunci <secventa de instructiuni> [altfel <secventa de instructiuni>] sfarsit daca
+
+
+tipuri de operatori:
+aritmetic  - <valoare aritmetica> <operator> <valoare aritmetica> -> <valoare aritmetica>
+relational - <valoare aritmetica> <operator> <valoare aritmetica> -> <valoare de adevar>
+logic      - <valoare de adevar>  <operator> <valoare de adevar>  -> <valoare de adevar>
+intr-o expresie cu o combinatie de tipuri de operatori, intai se executa cei aritmetici, apoi cei relationali si in cele din urma cei logici
+
+
+operatori aritmetici (in ordinea aplicarii):
+nivel | simbol | descriere
+1     | *      | inmultire
+1     | /      | impartire (pe intregi)
+1     | %      | modulo (restul impartirii)
+2     | +      | adunare
+2     | -      | scadere
+operatiile pe acelasi nivel se executa in ordine, de la stanga la dreapta
+
+
+operatori logici (in ordinea aplicarii):
+nivel | simbol | descriere
+1     | not    | negare
+2     | and    | `si` logic
+2     | or     | `sau` logic
+operatiile pe acelasi nivel se executa in ordine, de la stanga la dreapta
+
+
+operatori relationali:
+simbol | citire si semnificatie
+==     | egal
+!=     | diferit
+>      | mai mare
+<      | mai mic
+>=     | mai mare sau egal
+<=     | mai mic sau egal

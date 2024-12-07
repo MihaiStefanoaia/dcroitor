@@ -1,0 +1,44 @@
+wid =
+len = wid + 10
+
+per = (len + wid) * 2
+per = 4 * wid + 20
+
+
+algoritm:
+citeste latime
+calculeaza 4 * latime + 20 si salveaza rezultatul in perimetru
+afiseaza perimetru
+
+
+media a 3 numere:
+
+citeste a
+citeste b
+citeste c
+media = (a + b + c) / 3
+scrie media
+
+
+excursie:
+
+citeste x
+elevii_5b = x * 3
+elevii_5c = x + elevii_5b - 4
+elevi = x + elevii_5b + elevii_5c
+scrie elevi
+
+gard:
+citeste negru
+lungime_gard = 9 * negru
+scrie lungime_gard
+
+exemplu decizie:
+
+citeste x
+citeste y
+daca x >= y atunci 
+    scrie "x mai mare ca y"
+altfel
+    scrie "y mai mare ca x"
+sfarsit daca

@@ -1,0 +1,8 @@
+start:
+    a = b + c
+    d = a - x
+    if d < 0: jump somepoint
+    jump start
+somepoint:
+    print "below 0"
+    halt
