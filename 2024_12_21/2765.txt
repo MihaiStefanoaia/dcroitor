@@ -1,0 +1,28 @@
+citeste R
+citeste G
+citeste B
+
+daca R <= 255 && R >=0 && G <= 255 && G >=0 && B <= 255 && B >=0 atunci
+    // e valid
+    RG = R - G
+    RB = R - B
+    GB = G - B
+    daca RG < 0 atunci
+        RG = RG * -1
+    sfarsit daca
+    daca RB < 0 atunci
+        RB = RB * -1
+    sfarsit daca
+    daca GB < 0 atunci
+        GB = GB * -1
+    sfarsit daca
+    daca RG > 10 || RB > 10 || GB > 10 atunci 
+        afiseaza "CULOARE"
+    altfel
+        afiseaza "GRI"
+    sfarsit daca
+    
+    
+altfel
+    afiseaza "NU E CULOARE"
+sfarsit daca

@@ -1,0 +1,6 @@
+citeste a
+daca a % 10 == (a / 10) % 10 && (a / 10) / 10 == (a / 10) % 10 atunci
+    afiseaza "da"
+altfel
+    afiseaza "nu"
+sfarsit daca

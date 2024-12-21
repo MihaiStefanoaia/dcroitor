@@ -1,0 +1,28 @@
+// rezolvare naiva
+citeste n
+nr = 1
+cat timp n > 0 executa
+    nr = nr * 2
+    n = n - 1
+sfarsit cat timp
+afiseaza nr % 10
+
+
+// rezolvare eficienta
+citeste n
+daca n == 0 atunci
+    afiseaza 1
+altfel
+    daca n % 4 == 1 atunci
+        afiseaza 2
+    sfarsit daca
+    daca n % 4 == 2 atunci
+        afiseaza 4
+    sfarsit daca
+    daca n % 4 == 3 atunci
+        afiseaza 8
+    sfarsit daca
+    daca n % 4 == 0 atunci
+        afiseaza 6
+    sfarsit daca
+sfarsit daca
