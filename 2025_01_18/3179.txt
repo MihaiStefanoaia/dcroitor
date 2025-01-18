@@ -1,0 +1,7 @@
+citeste n
+alei = n 
+arbori = n * alei
+crengi = arbori * n
+cuiburi = crengi * n
+pasari = n * cuiburi
+afiseaza pasari

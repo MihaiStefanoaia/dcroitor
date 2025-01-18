@@ -1,0 +1,7 @@
+citeste k
+i = 10 + k / 2 - 1 + k % 2
+daca k % 2 == 1 atunci
+    afiseaza i / 10
+altfel
+    afiseaza i % 10
+sfarsit daca

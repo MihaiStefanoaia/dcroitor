@@ -1,0 +1,9 @@
+citeste x
+c = 0
+cat timp x > 0 executa
+    daca x % 2 == 1 atunci
+        c = c + 1
+    sfarsit daca
+    citeste x
+sfarsit cat timp
+afiseaza c

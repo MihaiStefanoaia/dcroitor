@@ -1,0 +1,7 @@
+citeste n
+citeste p
+a = 1
+cat timp a < p executa
+    afiseaza a
+    a = a * n
+sfarsit cat timp

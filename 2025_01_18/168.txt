@@ -1,0 +1,8 @@
+citeste a
+citeste b
+daca (a > 0 si b < 0) sau (a < 0 si b > 0) atunci
+    afiseaza "nu"
+sfarsit daca
+daca (a < 0 si b < 0) sau (a > 0 si b > 0) atunci
+    afiseaza "da"
+sfarsit daca

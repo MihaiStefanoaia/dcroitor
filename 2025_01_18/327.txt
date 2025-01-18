@@ -1,0 +1,7 @@
+citeste n
+a = 1
+cat timp a <= n executa:
+    afiseaza a
+    afiseaza " "
+    a = a + 1
+sfarsit cat timp
