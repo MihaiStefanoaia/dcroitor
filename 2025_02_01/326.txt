@@ -1,0 +1,18 @@
+
+
+citeste n
+i = 0
+ultim_par = -1
+cat timp i < n executa
+    citeste x
+    daca x % 2 == 0 atunci
+        ultim_par = x
+    sfarsit daca
+    i = i + 1
+sfarsit cat timp
+
+daca ultim_par == -1 atunci
+    scrie "IMPOSIBIL"
+altfel
+    scrie ultim_par
+sfarsit daca

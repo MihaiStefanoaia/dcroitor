@@ -1,0 +1,8 @@
+citeste n
+p = 1
+cat timp n > 0 executa
+    p = p * 10
+    n = n - 1
+sfarsit cat timp
+
+afiseaza p
