@@ -1,0 +1,25 @@
+citeste n
+
+cat timp n > 0 executa
+    citeste x
+    daca x < 0 atunci
+        x = x * -1
+    sfarsit daca
+
+    y = 1
+    cat timp y * y * y <= x executa
+        daca y * y * y == x atunci
+            afiseaza "DA\n"
+        sfarsit daca
+        y = y + 1
+    sfarsit cat timp
+    y = y - 1
+    daca y == 0 atunci
+        afiseaza "DA\n"
+    sfarsit daca
+    daca x != y * y * y atunci
+        afiseaza "NU\n"
+    sfarsit daca
+    
+    n = n - 1
+sfarsit cat timp

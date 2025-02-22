@@ -1,0 +1,7 @@
+citeste n
+
+cat timp n > 0 executa
+    afiseaza 2 * (n - 1) + 1
+    afiseaza " "
+    n = n - 1
+sfarsit cat timp

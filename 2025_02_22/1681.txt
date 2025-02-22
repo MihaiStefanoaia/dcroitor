@@ -1,0 +1,9 @@
+citeste a
+citeste b
+p = 1
+cat timp b > 0 executa
+    p = p * a
+    b = b - 1
+sfarsit cat timp
+
+afiseaza p
