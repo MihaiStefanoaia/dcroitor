@@ -1,0 +1,9 @@
+citeste n
+daca n % 2 == 0:
+    n = n - 1
+sfarsit daca
+
+cat timp n > 0:
+    afiseaza n
+    n = n-2
+sfarsit cat timp

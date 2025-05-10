@@ -1,0 +1,11 @@
+citeste x
+citeste t
+citeste y
+apa = x
+n = 0
+cat timp apa > y:
+    n = n + 1
+    apa = apa * 3/4
+sfarsit cat timp
+
+afiseaza n * t

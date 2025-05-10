@@ -1,0 +1,7 @@
+citeste n
+citeste p
+x = 1
+cat timp x <= p:
+    afiseaza x
+    x = x * n
+sfarsit cat timp

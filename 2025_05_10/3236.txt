@@ -1,0 +1,25 @@
+citeste i
+citeste p
+g_i = 0
+g_p = 0
+nr_i = -1
+nr_p = -1
+cat timp citeste x:
+    daca x % 2 == 0:
+        g_p = g_p + 1
+        daca p == g_p:
+            nr_p = x
+        sfarsit daca
+    altfel:
+        g_i = g_i + 1
+        daca i == g_i:
+            nr_i = x
+        sfarsit daca
+    sfarsit daca
+sfarsit cat timp
+
+daca nr_i >= 0 && nr_p >= 0:
+    afiseaza nr_p, nr_i
+altfel:
+    afiseaza "Nu Exista"
+sfarsit daca

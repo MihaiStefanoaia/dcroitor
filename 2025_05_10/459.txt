@@ -1,0 +1,10 @@
+citeste x
+s = x
+
+executa:
+    ant = x
+    citeste x
+    s = s + x
+cat timp ant != x
+
+afiseaza s

@@ -1,0 +1,11 @@
+
+s = 0
+citeste x
+
+cat timp x != 0:
+    daca x % 2 == 0:
+        s = s + x
+    citeste x
+sfarsit cat timp
+
+afiseaza s
