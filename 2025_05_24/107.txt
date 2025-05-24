@@ -1,0 +1,14 @@
+citeste n
+
+cif = n % 10
+aparitii = 0
+cat timp n != 0:
+    daca n % 10 == cif:
+        aparitii = aparitii + 1
+    sfarsit daca
+    n = n / 10
+sfarsit cat timp
+
+afiseaza aparitii
+
+n = 10000

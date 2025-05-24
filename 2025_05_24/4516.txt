@@ -1,0 +1,12 @@
+citeste n
+maxim = -1
+
+cat timp n >= 100:
+    num = n % 1000
+    n = n / 10
+    daca num > maxim:
+        maxim = num
+    sfarsit daca
+sfarsit cat timp
+
+afiseaza maxim

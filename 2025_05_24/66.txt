@@ -1,0 +1,9 @@
+citeste n
+
+rep = 0
+cat timp n!=0:
+    n = n/10
+    rep = rep + 1 
+sfarsit cat timp
+
+afiseaza rep

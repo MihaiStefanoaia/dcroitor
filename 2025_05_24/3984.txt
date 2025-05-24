@@ -1,0 +1,8 @@
+citeste a
+citeste b
+
+x = 1
+cat timp x <= b:
+    afiseaza a * x
+    x = x + 1
+sfarsit cat timp

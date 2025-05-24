@@ -1,0 +1,15 @@
+citeste n
+
+gasit = 0
+cat timp n!=0 && gasit == 0:
+    cif = n % 10
+    n = n / 10
+    daca cif % 2 == 0:
+        afiseaza cif
+        gasit = 1
+    sfarsit daca
+sfarsit cat timp
+
+daca n == 0 && gasit == 0:
+    afiseaza -1
+sfarsit daca

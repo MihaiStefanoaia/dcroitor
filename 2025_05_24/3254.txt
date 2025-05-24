@@ -1,0 +1,19 @@
+citeste n
+par = -1
+impar = 10
+
+cat timp n != 0:
+    cif = n % 10
+    n = n / 10
+    daca cif % 2 == 0:
+        daca cif > par:
+            par = cif
+        sfarsit daca
+    altfel:
+        daca cif < impar:
+            impar = cif
+        sfarsit daca
+    sfarsit daca
+sfarsit cat timp
+
+afiseaza par * impar
