@@ -1,0 +1,17 @@
+citeste c1
+citeste c2
+
+a = c1
+cat timp a <= 9:
+    c = 0
+    cat timp c <= c2:
+        b = 0
+        cat timp b < 10:
+            nr = a * 1000 + b * 100 + c * 10 + b
+            afiseaza nr
+            b = b + 2
+        sfarsit cat timp
+        c = c + 1
+    sfarsit cat timp
+    a = a + 1
+sfarsit cat timp

@@ -1,0 +1,21 @@
+citeste n
+cn = n
+// avem x ca necunoscuta, x reprezinta ultima cifra a lui n
+
+x = 0
+c = 0
+
+cat timp cn > 0:
+    daca cn <= 9:
+        x = cn
+    cn = cn / 10
+sfarsit cat timp
+
+
+cat timp n > 0:
+    daca n % 10 == x:
+        c = c + 1
+    n = n / 10
+sfarsit cat timp
+
+afiseaza c

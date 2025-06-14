@@ -1,0 +1,16 @@
+citeste n
+cn = n
+x = 0
+c = 0
+
+cat timp cn > 0:
+    daca cn > 9 && cn <= 99:
+        x = cn % 10
+    cn = cn / 10
+sfarsit cat timp
+
+cat timp n > 0:
+    daca n % 10 > x:
+        c = c + 1
+    n = n / 10
+sfarsit cat timp

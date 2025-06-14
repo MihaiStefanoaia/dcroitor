@@ -1,0 +1,15 @@
+citeste n
+p = 1
+gasit = 0
+cat timp n > 0:
+    daca (n % 10) % 2 == 1:
+        p = p * (n % 10)
+        gasit = 1
+    n = n/10
+sfarsit cat timp
+
+daca gasit == 1:
+    afiseaza p
+altfel:
+    afiseaza -1
+    

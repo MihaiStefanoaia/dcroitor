@@ -1,0 +1,20 @@
+citeste n
+
+gasit0 = 0
+gasit1 = 0
+gasitx = 0
+
+cat timp n > 0:
+    daca n%10 == 0:
+        gasit0 = 1
+    altfel daca n%10 == 1:
+        gasit1 = 1
+    altfel:
+        gasitx = 1
+    n = n / 10
+sfarsit cat timp
+
+daca gasit0 == 1 && gasit1 == 1 && gasitx == 0:
+    afiseaza "da"
+altfel:
+    afiseaza "nu"
